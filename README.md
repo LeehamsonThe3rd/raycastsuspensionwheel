@@ -2,6 +2,10 @@
 
 An easy-to--use ROBLOX module that allows for wheels with raycast suspension instead of the standard physics-based wheels
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/1xAgwgzFBus/0.jpg)](http://www.youtube.com/watch?v=1xAgwgzFBus "The WHEEL (and suspension...)")
+
+My video on it: https://www.youtube.com/watch?v=1xAgwgzFBus
+
 ## How to use:
 
 ### Setup:
