@@ -6,13 +6,13 @@ An easy-to--use ROBLOX module that allows for wheels with raycast suspension ins
 
 My video on it: https://www.youtube.com/watch?v=1xAgwgzFBus
 
-## How to use:
+## How to use 🏁
 
-### Setup:
+### Installatiin Guide 🔧
 
-To use this module you will need to place this **anywhere** in your project, you will then need to create a chassis and some wheel parts. Once that is done, ensure that each wheel has its own `Attachment`, `VectorForce`, and `Motor6D` objects, name these `Attachment`, `Force`, and `Weld` respectively. There is one more required step before using the module. Be sure that each wheel has these 5 attributes `DamperStiffness : number`, `MaxSuspensionLength : number`, `SpringStiffness : number`, `SuspensionVisible : boolean`, and `WheelFriction : number` (please note the colon followed by the type is just so you know what type of attribute to make, it's means nothing more than that). Once done you may finally use the module!
+To use this module you will need to copy the source code and place it into a module script. Then put this in your project, you will then need to create a chassis and some wheel parts. Once that is done, ensure that each wheel has its own `Attachment`, `VectorForce`, and `Motor6D` objects, name these `Attachment`, `Force`, and `Weld` respectively. There is one more required step before using the module. Be sure that each wheel has these 5 attributes `DamperStiffness : number`, `MaxSuspensionLength : number`, `SpringStiffness : number`, `SuspensionVisible : boolean`, and `WheelFriction : number` (please note the colon followed by the type is just so you know what type of attribute to make, it's means nothing more than that). Once done you may finally use the module!
 
-### Scripting:
+### Scripting 💻
 
 This module is so easy to use it only requires that you call two functions from the class, those being `.new(Wheel : Part, Chassis : Part)`, to create the wheel, and `:Update(DeltaTime : number)` to update the wheel physics.
 
@@ -38,8 +38,8 @@ end)
 
 ```
 
-### Documentation:
+## Documentation 📚
 
 `Wheel.new(Wheel : Part, Chassis : Part)`: Instantiates the wheel class using the provided `Wheel` and `Chassis` parameters.
 
-`Wheel.Update(DeltaTime : number)`: Recalculates the wheel's suspension and forces using the provided `DeltaTime` parameter.
+`Wheel:Update(DeltaTime : number)`: Recalculates the wheel's suspension and forces using the provided `DeltaTime` parameter.
