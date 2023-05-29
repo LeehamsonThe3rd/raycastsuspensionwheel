@@ -31,7 +31,7 @@ function VehicleModule.new(Model : Model)
 	self:GetWheels()
 	
 	self.Model.PrimaryPart:SetNetworkOwner(nil)
-	RunService.Heartbeat:Connect(function() self:Update()) end)
+	RunService.Heartbeat:Connect(function() self:Update() end)
 	
 	return self
 end
